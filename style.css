@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    display: flex;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#navbar ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+#navbar ul li{
+    margin: 2px 22px;
+    
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#logo{
+ padding: 6px 6px;
+ margin: 4px 11px;
+}
+#logo img{
+    height: 34px;
+}
